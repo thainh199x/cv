@@ -1,0 +1,144 @@
+/* FOR TABLET  */
+@media (max-width: 768px) {
+  /* .....NAV BAR .....  */
+  /* HIDE AVATAR AND SPACE  */
+  .avatar,
+  .space {
+    display: none;
+  }
+
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #nav-bar a {
+    border-left: 1px solid #e9ecef;
+    border-right: 1px solid #e9ecef;
+    justify-self: center;
+    padding: 0 20px;
+  }
+
+  #nav-bar a:first-child {
+    margin-left: 0;
+  }
+
+  /* ..... ABOUT .....  */
+  #about .container {
+    max-width: 768px;
+  }
+
+  /* .....TARGET.....  */
+  #target {
+    padding: 50px 40px;
+  }
+
+  #personal-info {
+    padding: 50px 40px;
+  }
+
+  /* .....JOB INFO.....  */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.2fr;
+    gap: 24px;
+    position: relative;
+    padding: 0;
+  }
+
+  #job-info ul {
+    padding-left: 0;
+  }
+  .hobby {
+    width: 48%;
+    height: 18%;
+    position: absolute;
+    top: 79%;
+  }
+
+  .language {
+    width: 48%;
+    height: 18%;
+    position: absolute;
+    top: 31%;
+    transform: translate(5%);
+  }
+
+  .skill {
+    width: 48%;
+    height: 28%;
+    position: absolute;
+    top: 51%;
+    transform: translate(20%);
+  }
+
+  .activity i {
+    font-size: 48px;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+  }
+
+  /* .....CERTIFICATE.....  */
+  #certificate .container {
+    padding: 30px 0 0 0;
+  }
+
+  .certificate-1,
+  .certificate-2,
+  .certificate-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    height: 100%;
+  }
+
+  .certificate-1 {
+    border-right: 1px solid #d6c08d;
+  }
+
+  .certificate-3 {
+    padding-bottom: 20px;
+  }
+
+  .certificate-1,
+  .certificate-3 {
+    padding-left: 0;
+  }
+
+  .certificate-2 {
+    padding-right: 0;
+  }
+
+  .certificate-2 img {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  #certificate img {
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* .....PROJECT.....  */
+  #project .container {
+    padding: 40px 0 20px 0;
+  }
+
+  #project h2 {
+    margin-bottom: 0;
+  }
+
+  .small-tag {
+    flex-wrap: wrap;
+  }
+
+  .small-tag span:last-child {
+    padding-left: 67px;
+  }
+}
